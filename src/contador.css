@@ -1,0 +1,14 @@
+.counter {
+    text-align: center;
+}
+.counter small {
+    color: darkolivegreen;
+}
+
+.counter .even {
+    color: yellow;
+}
+
+.counter .odd {
+    color: red;
+}

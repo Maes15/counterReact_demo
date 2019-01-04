@@ -1,4 +1,4 @@
-{
+ {
   "name": "react_app",
   "version": "0.1.0",
   "private": true,
@@ -9,7 +9,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "prebuild": "rm -rf docs",
     "build": "react-scripts build",
+    "postbuild": "mv build docs",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
